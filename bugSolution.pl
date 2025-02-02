@@ -1,0 +1,2 @@
+my @array = (1, 2, 3); my $size = @array; if ($size > 0) { my $element = $array[0]; print "First element:", $element; }
+  else { print "Array is empty"; } #Check the array's size before accessing elements
